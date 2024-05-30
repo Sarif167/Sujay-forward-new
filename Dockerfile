@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN JishuDeveloper /Ultra-Forward-Bot
-WORKDIR /Ultra-Forward-Bot
+RUN MandaliWala /N2ForwardBot
+WORKDIR /N2ForwardBot
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"] 
