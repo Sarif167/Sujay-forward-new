@@ -19,7 +19,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 
 main_buttons = [[
         InlineKeyboardButton('📢 Updates', url='https://t.me/sujay8371'),
-        InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')
+        InlineKeyboardButton('💬 Support', url='https://t.me/sujay8371')
         ],[
         InlineKeyboardButton('🛠️ Help', callback_data='help'),
         InlineKeyboardButton('🩷 About', callback_data='about')
