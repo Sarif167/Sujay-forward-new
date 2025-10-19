@@ -9,13 +9,13 @@
 import os
 
 class Config:
-    API_ID = os.environ.get("API_ID", "24935727")
-    API_HASH = os.environ.get("API_HASH", "3fd33336629324ecd664e9b6894f0909")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7815547857:AAHXdWrpJzHNQhw-el4uh6ubHhwAWZe4FUo") 
+    API_ID = os.environ.get("API_ID", "23621595")
+    API_HASH = os.environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://SUJAY-BRANCH:SUJAY-BRANCH@cluster0287346.3wqpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0287346")
-    DB_NAME = os.environ.get("DB_NAME", "SUJAY-BRANCH")
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '7336971189 7348205141 6942557751').split()]
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://wajsarif461_db_user:TwacJh76mwpHHpjw@cluster0.biueyst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "MASTER-BRANCH")
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '1249672673').split()]
 
 class temp(object): 
     lock = {}
